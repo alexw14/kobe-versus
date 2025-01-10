@@ -16,12 +16,18 @@
   margin: 8px;
 }
 
-.team-icon img {
+.team-icon {
   width: 80px;
   height: 80px;
   background-size: contain;
   cursor: pointer;
   padding: 24px;
+}
+
+.team-icon div {
+  width: 80px;
+  height: 80px;
+  background-size: contain;
 }
 
 .team-list {
@@ -35,7 +41,8 @@
   margin-left: 24px;
 }
 
-.selected-team img{
+.selected-team {
   width: 124px;
   height: 124px;
+  background-size: contain;
 }

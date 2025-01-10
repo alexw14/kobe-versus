@@ -2,21 +2,20 @@ import './Header.css';
 
 function Header({ teams, selectedTeam, handleClick }) {
   const renderedTeamIcons = teams.map((teamName) => {
-    const urlPath = `/kobe-versus/public/images/team-icons/${teamName}.png`;
+    const urlPath = `/kobe-versus/public/images/${teamName}.png`;
     return (
       <div
         key={teamName}
-        className="team-icon"
+        className={`team-icon`}
         onClick={() => handleClick(teamName)}
       >
-        <img src={urlPath} />
+        <div className={teamName} />
       </div>
     );
   });
 
   const renderedSelectedTeam = (
-    <div className="selected-team">
-      <img src={`/kobe-versus/public/images/team-icons/${selectedTeam}.png`} />
+    <div className={`selected-team ${selectedTeam}`}>
     </div>
   );
 

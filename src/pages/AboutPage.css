@@ -1,0 +1,27 @@
+.about-container {
+  width: 1200px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 48px;
+  background: linear-gradient(rgba(255,255,255,.25), rgba(255,255,255,.25));
+
+}
+
+.app.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtitle {
+  font-size: 48px;
+}
+
+.body-text {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
