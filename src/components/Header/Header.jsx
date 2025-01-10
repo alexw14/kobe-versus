@@ -15,15 +15,21 @@ function Header({ teams, selectedTeam, handleClick }) {
   });
 
   const renderedSelectedTeam = (
-    <div className={`selected-team ${selectedTeam}`}>
-    </div>
+    <div className={`selected-team ${selectedTeam}`}></div>
   );
+
+  let content = <div className="main">Kobe Bryant vs. </div>;
+  if (selectedTeam) {
+    content = (
+      <div className="main selected">
+        Kobe Bryant's highest scoring game vs. {renderedSelectedTeam}
+      </div>
+    );
+  }
 
   return (
     <div className="header">
-      <div className="main">
-        Kobe Bryant vs. {selectedTeam ? renderedSelectedTeam : null}
-      </div>
+      {content}
       <div className="team-list">{selectedTeam ? null : renderedTeamIcons}</div>
     </div>
   );

@@ -1,7 +1,6 @@
 import './Scoreboard.css';
 
 function Scoreboard({ gameData }) {
-  console.log(gameData);
   return (
     <div className="scoreboard">
       <div className="top-section">
