@@ -1,0 +1,10 @@
+.scoreboard {
+  background: linear-gradient(rgba(255,255,255,.25), rgba(255,255,255,.25));
+  color: #fff;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 24px auto;
+}
