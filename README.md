@@ -1,8 +1,3 @@
-# React + Vite
+The Kobe Versus web app is a fun application tributing to one of the greatest basketball players of all time, Kobe Bryant. This app allows users to explore Kobe's highest scoring games against every NBA team. When you select a team, you’ll see Kobe’s stats for his highest-scoring game against that team.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+See the app here: https://alexw14.github.io/kobe-versus
